@@ -1,0 +1,23 @@
+{
+  "name": "holiday-expense-tracker",
+  "version": "1.0.0",
+  "description": "This is a simple web application built with Angular and Node.js (express) that allows users to track expenses and settle up with their friends. Users can add expenses for each traveler, view expenses and settle up to calculate how much each traveler needs to pay out to any other traveler.",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd frontend && npm install && cd backend && npm install",
+    "start": "cd frontend && ng serve && cd backend && node dist/index.js",
+    "test": "cd frontend && ng test && cd backend && jest"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BillBenon/holiday-expenses-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BillBenon/holiday-expenses-calculator/issues"
+  },
+  "homepage": "https://github.com/BillBenon/holiday-expenses-calculator#readme"
+}
